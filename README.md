@@ -1,4 +1,5 @@
 Projektni zadatak iz predmeta Programski jezici 1 (2023/24)
+
 U programskom jeziku C++ realizovati simulator saobraćaja. Program se mora moći kompajlirati, izvršiti i
 testirati. Pravilno izvršiti modularizaciju. Dozvoljeno je korištenje samo standardnih biblioteka. Pridržavati
 se principa OOP, SOLID principa i konvencija za programski jezik C++. Obezbijediti primjere za testiranje
