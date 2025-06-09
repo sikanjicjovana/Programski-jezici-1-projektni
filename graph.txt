@@ -1,0 +1,48 @@
+16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 0 1 0 1 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+
+LocationNode 1 A parking
+PathNode 6 Path2 21 50 2
+IntersectionNode 14 Intersection1 8
+PathNode 5 Path1 20 60 3
+PathNode 7 Path3 80 70 9
+LocationNode 3 C grad2
+PathNode 8 Path4 18 30 2
+PathNode 9 Path5 98 20 12
+LocationNode 2 B grad
+PathNode 10 Path6 43 80 5
+IntersectionNode 15 Intersection2 5
+PathNode 11 Path7 56 100 7
+PathNode 12 Path8 71 50 6
+LocationNode 4 D park
+PathNode 13 Path9 89 80 4
+Intersection1
+Path9 Path7 5 40
+Path6 Path7 2 45
+Intersection2
+Path2 Path3 1 50
+Path4 Path3 3 30
+Path4 Path5 1 20
+Path7 Path4 2 40
+Path7 Path8 3 60
+Path2 Path8 2 45
+Path4 Path1 1 35
+Path7 Path1 3 45
+Path4 Path8 4 20
+Path2 Path5 5 30
+Path7 Path2 6 50
